@@ -12,15 +12,17 @@
 <body>
     <header class="container">
         <img src="./img/logo.png" alt="Logo" class="logo">
-        <nav class="meniu">
-            <a href="#">Home</a>
-            <a href="#">Smoothies</a>
-            <a href="#">Contact us</a>
-        </nav>
-        <nav class="meniu">
-            <a href="#" class="fa fa-shopping-basket"></a>
-            <a href="#" class="fa fa-search"></a>
-        </nav>
+        <div class="main-meniu">
+            <nav class="meniu">
+                <a href="#">Home</a>
+                <a href="#">Smoothies</a>
+                <a href="#">Contact us</a>
+            </nav>
+            <nav class="meniu">
+                <a href="#" class="fa fa-shopping-basket"></a>
+                <a href="#" class="fa fa-search"></a>
+            </nav>
+        </div>
         <i class="fa fa-bars hamburger"></i>
     </header>
     <main class="container">
@@ -35,7 +37,7 @@
         </div>
         <div class="text">
             <p class="category">Berries</p>
-            <h1 class="title">Strawberry</h1>
+            <h1 class="title">Strawberry rush</h1>
             <p class="descriprion">The best blend Strawberrys, rasberries and mulberries</p>
             <div class="contains">
                 <div class="list"></div>
@@ -43,7 +45,7 @@
                 <ul class="list-plus">
                     <li>Vitamin A</li>
                     <li>Vitamin C</li>
-                    <li>Citrin acid</li>
+                    <li>Citric acid</li>
                 </ul>
             </div>
             <div class="list">
@@ -60,11 +62,11 @@
                     </li>
                 </ul>
             </div>
-            <form>
-                <input type="hidden" value="strawberry-rush" name="selected-item" id="selected-item">
-                <button type="submit">Add to card</button>
-            </form>
         </div>
+        <form>
+            <input type="hidden" value="strawberry-rush" name="selected-item" id="selected-item">
+            <button type="submit">Add to card</button>
+        </form>
     </main>
 </body>
 
