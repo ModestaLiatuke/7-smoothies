@@ -86,6 +86,34 @@ main.container {
 }
 .text {
 }
+.text > .category {
+}
+.text > .title {
+}
+
+.text > description {
+}
+.text > .contains {
+}
+.text > .contains > .list {
+}
+.text .list > .list-title {
+}
+.text .list > list-plus {
+}
+.text .list-plius > li {
+}
+.text .list-plius > li::before {
+}
+.text .list-image > .li {
+}
+.text .list-image img {
+}
+.text > form {
+}
+.text > form > button {
+}
+
 @media (min-width: 480px) {
     .container {
         width: 440px;
